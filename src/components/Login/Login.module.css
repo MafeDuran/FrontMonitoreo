@@ -1,0 +1,72 @@
+.leftBg {
+  background-image: url('../../assets/images/Login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textTopLeft {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.azureLogo {
+  width: 100px;
+}
+
+.logoRight {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+}
+
+.btn-success {
+  background-color: #579B6F !important;
+}
+
+.bottomRightIcon {
+  position: absolute;
+  bottom: 20px;
+  right: 410px;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: auto; /* Alto del contenedor del icono */
+}
+
+.iconImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#root {
+  width: 100% !important;
+  height: 100%;
+}
+
+/* Nuevos estilos para reducir el tamaño del formulario */
+.formWrapper {
+  max-width: 520px; /* Limitar el ancho del contenedor del formulario */
+  margin: 0 auto;   /* Centrar el formulario */
+}
+
+.formContainer {
+  width: 100%; /* Asegura que el formulario tome todo el ancho disponible en su contenedor */
+}
+
+.formInput {
+  height: 38px;  /* Ajusta la altura de los inputs */
+  font-size: 0.875rem; /* Tamaño de la fuente para los inputs */
+  padding: 0.5rem; /* Espaciado interno */
+}
+

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Grupo_1623" data-name="Grupo 1623" transform="translate(-1268 -182)">
+    <g id="Grupo_1582" data-name="Grupo 1582" transform="translate(1268.191 182.333)">
+      <g id="Grupo_1594" data-name="Grupo 1594">
+        <rect id="Rectángulo_658" data-name="Rectángulo 658" width="23" height="23" rx="2" transform="translate(-0.191 -0.333)" fill="#69a47e"/>
+        <g id="Layer_2" data-name="Layer 2" transform="translate(5.159 4.159)">
+          <g id="invisible_box" data-name="invisible box" transform="translate(-0.349 -0.492)">
+            <rect id="Rectángulo_648" data-name="Rectángulo 648" width="14" height="14" transform="translate(0 0)" fill="none"/>
+          </g>
+          <g id="icons_Q2" data-name="icons Q2" transform="translate(0.165 0.706)">
+            <path id="Trazado_20" data-name="Trazado 20" d="M17.249,4.87a.741.741,0,0,1-.193.516.548.548,0,0,1-.451.193H12.736a.645.645,0,0,1-.645-.645V4.289H10.157v.645a.645.645,0,0,1-.645.645H5.677A.677.677,0,0,1,5,5a.741.741,0,0,1,.193-.516.548.548,0,0,1,.451-.193H8.868V3.645A.645.645,0,0,1,9.513,3h3.224a.645.645,0,0,1,.645.645v.645h3.191A.677.677,0,0,1,17.249,4.87Z" transform="translate(-4.999 -3)" fill="#fff"/>
+            <path id="Trazado_21" data-name="Trazado 21" d="M17.445,15.58l-.774,7.8H11.256l-.774-7.8A.645.645,0,0,0,9.838,15h0a.645.645,0,0,0-.645.709l.838,8.381a.645.645,0,0,0,.645.58h6.576a.645.645,0,0,0,.645-.58l.838-8.381A.645.645,0,0,0,18.09,15h0A.645.645,0,0,0,17.445,15.58Z" transform="translate(-7.839 -11.132)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

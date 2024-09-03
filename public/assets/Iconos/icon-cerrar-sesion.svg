@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.333)">
+    <g id="invisible_box" data-name="invisible box">
+      <rect id="Rectángulo_1108" data-name="Rectángulo 1108" width="25" height="25" transform="translate(0 -0.334)" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons" transform="translate(2.048 5.653)">
+      <path id="Trazado_559" data-name="Trazado 559" d="M24.548,12.028a1.028,1.028,0,1,0-2.056,0v6.167H7.487l2.364-2.364a.976.976,0,0,0-.1-1.542,1.079,1.079,0,0,0-1.387.1L4.3,18.5a.976.976,0,0,0,0,1.439l4.06,4.111a1.079,1.079,0,0,0,1.387.1.976.976,0,0,0,.1-1.542L7.487,20.25H23.52a1.028,1.028,0,0,0,1.028-1.028Z" transform="translate(-3.985 -11)" fill="#51986a" stroke="#51986a" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

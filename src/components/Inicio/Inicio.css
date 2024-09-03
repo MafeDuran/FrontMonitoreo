@@ -1,0 +1,125 @@
+/* src/components/Inicio/Inicio.css */
+.inicio{
+    margin-top:20px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden; /* Oculta el contenido que se desborda */
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila horizontal */
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item2 {
+    background-color: #faf7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    max-width: 220px; /* Ajusta según sea necesario */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex: 0 0 auto; /* Asegura que los elementos mantengan su tamaño */
+    position: relative;
+  }
+  
+  .carousel-item2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .carousel-item2 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .carousel-item2 p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .carousel-item2.selected {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-color: #4caf50;
+    background-color: #e0f7e9;
+  }
+  
+  .carousel-item2.selected::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 40px;
+    height: 40px;
+    background-color: #4caf50;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel-item2.selected .badge {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .carousel-item2.selected .badge img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .arrow {
+    font-size: 36px; /* Tamaño aumentado de las flechas */
+    cursor: pointer;
+    color: #4caf50;
+    user-select: none;
+    transition: color 0.3s;
+    margin: 0 20px; /* Espacio añadido alrededor de las flechas */
+  }
+  
+  .arrow:hover {
+    color: #333;
+  }
+  
+  .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 70px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  .section-title::before,
+  .section-title::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #ddd;
+    margin: 0 20px;
+  }
+  

@@ -1,0 +1,74 @@
+
+.table {
+    margin-top: 20px;
+}
+
+.custom-table {
+    margin-top: 20px;
+}
+
+.custom-table th, .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table th {
+    background-color: #579B6F;
+    color: white;
+}
+
+
+.vigencia-si {
+    color: #579B6F !important;
+}
+
+.vigencia-no {
+    color: red !important;
+}
+
+.btn-custom {
+    background-color: #579B6F;
+    color: white;
+}
+
+.btn-custom.active, .btn-custom:active {
+    background-color: darkgreen;
+}
+
+.btn-toolbar .btn-group .btn {
+    margin-right: 5px;
+}
+
+.mr-3 {
+    margin-right: 1rem !important;
+}
+
+.btn-link {
+    color: gray;
+}
+
+.btn-link i {
+    margin-right: 8px;
+}
+
+#vigenciaSelect {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.tabs-datos button.active {
+    background-color: #579B6F;
+    color: white;
+}
+
+.btn-success {
+    background-color: #579B6F !important;
+}
+
+.btn-success:hover {
+    background-color: darkgreen !important;
+    color: white;
+}
+
+  

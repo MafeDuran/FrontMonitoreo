@@ -1,0 +1,110 @@
+.table {
+    margin-top: 20px;
+  }
+  
+  .custom-table th, .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .custom-table th {
+    background-color: #579B6F;
+    color: white;
+  }
+  
+  .vigencia-si {
+    color: #4CAF50 !important;
+  }
+  
+  .vigencia-no {
+    color: red !important;
+  }
+  
+  .btn-custom {
+    background-color: #579B6F;
+    color: white;
+  }
+  
+  .btn-custom.active, .btn-custom:active {
+    background-color: darkgreen;
+  }
+  
+  .btn-toolbar .btn-group .btn {
+    margin-right: 5px;
+  }
+  
+  .mr-3 {
+    margin-right: 1rem !important;
+  }
+  
+  .btn-link {
+    color: gray;
+  }
+  
+  .btn-link i {
+    margin-right: 8px;
+  }
+  
+  #vigenciaSelect {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  /* Asegúrate de incluir los estilos para .active en .tabs-datos si aún no están presentes */
+  .tabs-datos button.active {
+    background-color: #579B6F;
+    color: white;
+  }
+  .btn-success{
+    background-color: #579B6F !important;
+  }
+  .btn-success:hover {
+    background-color: darkgreen !important; /* Un verde ligeramente más oscuro para el hover */
+    color: white; /* Asegúrate de que el texto siga siendo blanco en el hover */
+  }
+ 
+
+  .card.smaller-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 100%  /* Ajusta el tamaño según tus necesidades */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;  /* Asegura que los elementos estén en columna */
+  }
+  
+
+  .label-fixed-width {
+    width: 80px;  /* Ancho fijo para los labels */
+    text-align: right;  /* Alinea el texto a la derecha */
+    margin-right: 10px;  /* Espacio entre el label y el select */
+    font-weight: bold;
+  }
+  
+  .form-select {
+    height: 28px;  /* Ajusta la altura */
+    padding: 2px 8px;  /* Ajusta el padding */
+    font-size: 12px;  /* Ajusta el tamaño de la fuente */
+    width: 150px;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem !important;
+  }
+  
+  .btn-wide {
+    width: 120px;  /* Ajusta el ancho según tus necesidades */
+  }
+  .form-input {
+    height: 28px;  /* Ajusta la altura */
+    padding: 2px 8px;  /* Ajusta el padding */
+    font-size: 12px;  /* Ajusta el tamaño de la fuente */
+    width: 150px !important;
+    border-radius: 3px;
+  }

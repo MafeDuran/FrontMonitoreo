@@ -1,0 +1,14 @@
+.label-fixed-width_left{
+    width: 157px;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.label-fixed-width_right{
+    width: 157px;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: -212px;
+    font-weight: bold;
+}

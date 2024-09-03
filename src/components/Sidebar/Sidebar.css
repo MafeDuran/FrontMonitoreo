@@ -1,0 +1,123 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+    background-color: #ffffff;
+    border-right: 2px solid #ddd;
+    height: 100vh; /* Full height */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 230px;
+    overflow-y: auto; /* Activa el scroll vertical si el contenido es demasiado largo */
+    overflow-x: hidden; /* Opcional: Desactiva el scroll horizontal si no es necesario */
+}
+h1 {
+    color: #333; /* Gris oscuro para el texto */
+    font-weight: bold; /* Negrita */
+  }
+.sidebar h1 {
+    font-size: 15px;
+    color: #333;
+}
+
+.sidebar .user-info {
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+.sidebar .menu {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar .menu li {
+    margin-bottom: 7px;
+}
+
+.sidebar .menu a {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 15px;
+    border: 2px solid transparent;
+}
+
+.sidebar .menu a:hover {
+    background-color: #d9d9d9;
+}
+
+.sidebar .menu a.active {
+    background-color: #89F09B;
+    color: white;
+    border: 2px solid #89F09B;
+}
+
+.sidebar .menu a .icon {
+    margin-right: 10px;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu-items {
+    display: none;
+    list-style: none;
+    padding-left: 10px;
+    background-color: #faf7f7;
+    border-left: 2px solid #89F09B;
+}
+
+.submenu-items li a {
+    color: #333;
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+    border-radius: 4px;
+}
+
+.submenu-items li a:hover {
+    background-color: #d9d9d9;
+}
+
+.submenu.open .submenu-items {
+    display: block;
+}
+
+.submenu-items li a.active {
+    background-color: #89F09B;
+    color: white;
+}
+.iconos{
+    padding-right: 7px;
+}
+
+
+
+
+/* Estilo para la parte de la barra de desplazamiento */
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Thumb (parte arrastrable) */
+  .sidebar::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #89F09B, #579B6F); /* Degradado de colores */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+  }
+  
+  /* Track (área detrás del thumb) */
+  .sidebar::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  /* Cambiar el color del thumb al pasar el ratón */
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
